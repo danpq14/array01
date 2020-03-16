@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>array 02</title>
+</head>
+<body>
+<script>
+    let a=[];
+    let i=0;
+    let  max= 0;
+    let y=0;
+    for (i=0;i<10;i++) {
+        let num = prompt('enter a number');
+        num = parseInt(num);
+        a[i] = num ;
+        console.log(max)
+        if (a[i] > max) {
+            max = a[i];
+            console.log(max);
+            y = i;
+        }
+    }
+    alert('số lớn nhất trong mảng là : ' + max +' ở vị trí :'+ y)
+</script>
+</body>
+</html>

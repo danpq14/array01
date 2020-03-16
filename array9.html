@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let amount1=prompt('độ dài của mảng 1');
+    let a=[];
+    let i=0;
+    for (i=0;i<amount1;i++) {
+        let num = prompt('enter a number');
+        num = parseInt(num);
+        a[i] = num;
+    }
+
+    let amount2=prompt('độ dài của mảng 2');
+    let b=[];
+    let y=0;
+    for (y=0;y<amount2;y++) {
+        let number = prompt('enter a number');
+        number = parseInt(number);
+        b[y] = number;
+    }
+    let c=a.concat(b);
+    document.write(c);
+
+
+</script>
+
+</body>
+</html>
